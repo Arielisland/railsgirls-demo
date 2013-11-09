@@ -8,6 +8,7 @@ gem 'rails', '3.2.15'
 #gem 'sqlite3'
 gem 'pg'
 gem 'carrierwave'
+gem 'rails_12factor', group: :production
 
 
 # Gems used only for assets and not required
@@ -24,6 +25,7 @@ end
 
 gem 'jquery-rails'
 
+ruby '2.0.0'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
